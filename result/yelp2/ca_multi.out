@@ -1,0 +1,560 @@
+-------------------- Hyperparams --------------------
+time: 2021-01-05 15:04:32.131670
+Dataset: yelp
+N: 30000
+weight decay: 0.0005
+dropout rate: 0.5
+learning rate: 0.001
+dimension of embedding: 64
+use_cuda: True
+2021-01-05 15:17:57.170977 Training: [1 epoch,  10 batch] loss: 14.91088, the best RMSE/MAE: inf / inf
+2021-01-05 15:18:17.652445 Training: [1 epoch,  20 batch] loss: 14.45557, the best RMSE/MAE: inf / inf
+2021-01-05 15:18:38.177326 Training: [1 epoch,  30 batch] loss: 14.16292, the best RMSE/MAE: inf / inf
+2021-01-05 15:18:58.782058 Training: [1 epoch,  40 batch] loss: 14.09305, the best RMSE/MAE: inf / inf
+2021-01-05 15:19:19.401558 Training: [1 epoch,  50 batch] loss: 14.08577, the best RMSE/MAE: inf / inf
+2021-01-05 15:19:40.053029 Training: [1 epoch,  60 batch] loss: 13.98172, the best RMSE/MAE: inf / inf
+2021-01-05 15:20:00.769202 Training: [1 epoch,  70 batch] loss: 13.94817, the best RMSE/MAE: inf / inf
+2021-01-05 15:20:21.505608 Training: [1 epoch,  80 batch] loss: 13.91377, the best RMSE/MAE: inf / inf
+2021-01-05 15:20:42.282346 Training: [1 epoch,  90 batch] loss: 13.92160, the best RMSE/MAE: inf / inf
+<Test> RMSE：34035484.00000,MAE：24308910.00000
+2021-01-05 15:21:38.502708 Training: [2 epoch,  10 batch] loss: 13.79947, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:21:59.114249 Training: [2 epoch,  20 batch] loss: 13.80782, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:22:19.828813 Training: [2 epoch,  30 batch] loss: 13.75247, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:22:40.598025 Training: [2 epoch,  40 batch] loss: 13.74013, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:23:01.342085 Training: [2 epoch,  50 batch] loss: 13.70475, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:23:22.201690 Training: [2 epoch,  60 batch] loss: 13.66574, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:23:43.053621 Training: [2 epoch,  70 batch] loss: 13.68193, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:24:03.948209 Training: [2 epoch,  80 batch] loss: 13.60233, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+2021-01-05 15:24:24.873168 Training: [2 epoch,  90 batch] loss: 13.58191, the best RMSE/MAE: 34035484.00000 / 24308910.00000
+<Test> RMSE：78965.11719,MAE：56236.44141
+2021-01-05 15:25:21.701345 Training: [3 epoch,  10 batch] loss: 13.54844, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:25:42.445229 Training: [3 epoch,  20 batch] loss: 13.48755, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:26:03.253475 Training: [3 epoch,  30 batch] loss: 13.43373, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:26:24.157283 Training: [3 epoch,  40 batch] loss: 13.44335, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:26:45.050526 Training: [3 epoch,  50 batch] loss: 13.40379, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:27:05.958523 Training: [3 epoch,  60 batch] loss: 13.36882, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:27:26.888947 Training: [3 epoch,  70 batch] loss: 13.30910, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:27:47.843770 Training: [3 epoch,  80 batch] loss: 13.33062, the best RMSE/MAE: 78965.11719 / 56236.44141
+2021-01-05 15:28:08.849441 Training: [3 epoch,  90 batch] loss: 13.25307, the best RMSE/MAE: 78965.11719 / 56236.44141
+<Test> RMSE：2957.70581,MAE：2070.32861
+2021-01-05 15:29:07.139263 Training: [4 epoch,  10 batch] loss: 13.22895, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:29:28.089884 Training: [4 epoch,  20 batch] loss: 13.18031, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:29:49.046840 Training: [4 epoch,  30 batch] loss: 13.14536, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:30:10.034701 Training: [4 epoch,  40 batch] loss: 13.11861, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:30:31.073227 Training: [4 epoch,  50 batch] loss: 13.07442, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:30:52.062111 Training: [4 epoch,  60 batch] loss: 13.03458, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:31:13.025800 Training: [4 epoch,  70 batch] loss: 13.04385, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:31:34.049336 Training: [4 epoch,  80 batch] loss: 12.99795, the best RMSE/MAE: 2957.70581 / 2070.32861
+2021-01-05 15:31:55.109799 Training: [4 epoch,  90 batch] loss: 12.99785, the best RMSE/MAE: 2957.70581 / 2070.32861
+<Test> RMSE：311.81104,MAE：209.42621
+2021-01-05 15:32:53.204356 Training: [5 epoch,  10 batch] loss: 12.90333, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:33:13.956849 Training: [5 epoch,  20 batch] loss: 12.86021, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:33:34.792185 Training: [5 epoch,  30 batch] loss: 12.83042, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:33:55.650368 Training: [5 epoch,  40 batch] loss: 12.76568, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:34:16.633886 Training: [5 epoch,  50 batch] loss: 12.77053, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:34:37.613762 Training: [5 epoch,  60 batch] loss: 12.71042, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:34:58.578357 Training: [5 epoch,  70 batch] loss: 12.68002, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:35:19.502256 Training: [5 epoch,  80 batch] loss: 12.71629, the best RMSE/MAE: 311.81104 / 209.42621
+2021-01-05 15:35:40.391260 Training: [5 epoch,  90 batch] loss: 12.63811, the best RMSE/MAE: 311.81104 / 209.42621
+<Test> RMSE：51.23081,MAE：35.50735
+2021-01-05 15:36:38.025157 Training: [6 epoch,  10 batch] loss: 12.54963, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:36:58.732830 Training: [6 epoch,  20 batch] loss: 12.50754, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:37:19.528345 Training: [6 epoch,  30 batch] loss: 12.49768, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:37:40.541361 Training: [6 epoch,  40 batch] loss: 12.45594, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:38:01.561029 Training: [6 epoch,  50 batch] loss: 12.44004, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:38:22.609966 Training: [6 epoch,  60 batch] loss: 12.37518, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:38:43.754536 Training: [6 epoch,  70 batch] loss: 12.34394, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:39:04.870574 Training: [6 epoch,  80 batch] loss: 12.30836, the best RMSE/MAE: 51.23081 / 35.50735
+2021-01-05 15:39:25.949465 Training: [6 epoch,  90 batch] loss: 12.25191, the best RMSE/MAE: 51.23081 / 35.50735
+<Test> RMSE：13.16886,MAE：8.94662
+2021-01-05 15:40:24.246757 Training: [7 epoch,  10 batch] loss: 12.19142, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:40:45.322373 Training: [7 epoch,  20 batch] loss: 12.15624, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:41:06.569642 Training: [7 epoch,  30 batch] loss: 12.09353, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:41:27.712287 Training: [7 epoch,  40 batch] loss: 12.09881, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:41:48.802512 Training: [7 epoch,  50 batch] loss: 12.03500, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:42:10.014089 Training: [7 epoch,  60 batch] loss: 11.99910, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:42:31.274338 Training: [7 epoch,  70 batch] loss: 11.95409, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:42:52.331770 Training: [7 epoch,  80 batch] loss: 11.90966, the best RMSE/MAE: 13.16886 / 8.94662
+2021-01-05 15:43:13.537574 Training: [7 epoch,  90 batch] loss: 11.93990, the best RMSE/MAE: 13.16886 / 8.94662
+<Test> RMSE：5.28778,MAE：3.61275
+2021-01-05 15:44:12.676002 Training: [8 epoch,  10 batch] loss: 11.79695, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:44:33.859952 Training: [8 epoch,  20 batch] loss: 11.74260, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:44:54.995256 Training: [8 epoch,  30 batch] loss: 11.70647, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:45:16.241859 Training: [8 epoch,  40 batch] loss: 11.70083, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:45:37.462630 Training: [8 epoch,  50 batch] loss: 11.66546, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:45:58.793365 Training: [8 epoch,  60 batch] loss: 11.61297, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:46:20.021974 Training: [8 epoch,  70 batch] loss: 11.58324, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:46:41.257377 Training: [8 epoch,  80 batch] loss: 11.55291, the best RMSE/MAE: 5.28778 / 3.61275
+2021-01-05 15:47:02.606134 Training: [8 epoch,  90 batch] loss: 11.46527, the best RMSE/MAE: 5.28778 / 3.61275
+<Test> RMSE：2.78963,MAE：1.98794
+2021-01-05 15:48:00.829852 Training: [9 epoch,  10 batch] loss: 11.37988, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:48:21.757464 Training: [9 epoch,  20 batch] loss: 11.34052, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:48:44.246533 Training: [9 epoch,  30 batch] loss: 11.36251, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:49:05.470640 Training: [9 epoch,  40 batch] loss: 11.26432, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:49:26.705421 Training: [9 epoch,  50 batch] loss: 11.21482, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:49:47.869425 Training: [9 epoch,  60 batch] loss: 11.18520, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:50:09.054112 Training: [9 epoch,  70 batch] loss: 11.17408, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:50:30.222538 Training: [9 epoch,  80 batch] loss: 11.15261, the best RMSE/MAE: 2.78963 / 1.98794
+2021-01-05 15:50:51.525245 Training: [9 epoch,  90 batch] loss: 11.02571, the best RMSE/MAE: 2.78963 / 1.98794
+<Test> RMSE：2.30550,MAE：1.80134
+2021-01-05 15:51:51.001545 Training: [10 epoch,  10 batch] loss: 10.97744, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:52:12.330590 Training: [10 epoch,  20 batch] loss: 10.96073, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:52:33.467853 Training: [10 epoch,  30 batch] loss: 10.87869, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:52:54.562056 Training: [10 epoch,  40 batch] loss: 10.87642, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:53:15.699013 Training: [10 epoch,  50 batch] loss: 10.81977, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:53:36.781894 Training: [10 epoch,  60 batch] loss: 10.77447, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:53:57.789551 Training: [10 epoch,  70 batch] loss: 10.68731, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:54:21.823505 Training: [10 epoch,  80 batch] loss: 10.63797, the best RMSE/MAE: 2.30550 / 1.80134
+2021-01-05 15:54:42.577660 Training: [10 epoch,  90 batch] loss: 10.61390, the best RMSE/MAE: 2.30550 / 1.80134
+<Test> RMSE：1.39726,MAE：1.17521
+2021-01-05 15:55:44.377655 Training: [11 epoch,  10 batch] loss: 10.53056, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:56:05.404776 Training: [11 epoch,  20 batch] loss: 10.48908, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:56:26.469183 Training: [11 epoch,  30 batch] loss: 10.43213, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:56:47.438695 Training: [11 epoch,  40 batch] loss: 10.38202, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:57:08.333725 Training: [11 epoch,  50 batch] loss: 10.39302, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:57:29.302093 Training: [11 epoch,  60 batch] loss: 10.29602, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:57:50.222576 Training: [11 epoch,  70 batch] loss: 10.26712, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:58:11.079424 Training: [11 epoch,  80 batch] loss: 10.21106, the best RMSE/MAE: 1.39726 / 1.17521
+2021-01-05 15:58:32.001835 Training: [11 epoch,  90 batch] loss: 10.19076, the best RMSE/MAE: 1.39726 / 1.17521
+<Test> RMSE：1.12435,MAE：0.91245
+2021-01-05 15:59:30.283719 Training: [12 epoch,  10 batch] loss: 10.12847, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 15:59:51.313385 Training: [12 epoch,  20 batch] loss: 10.03618, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:00:12.145237 Training: [12 epoch,  30 batch] loss: 10.03644, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:00:32.890952 Training: [12 epoch,  40 batch] loss: 9.92967, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:00:53.719092 Training: [12 epoch,  50 batch] loss: 9.88873, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:01:14.518589 Training: [12 epoch,  60 batch] loss: 9.84947, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:01:35.494539 Training: [12 epoch,  70 batch] loss: 9.78306, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:01:56.381878 Training: [12 epoch,  80 batch] loss: 9.73396, the best RMSE/MAE: 1.12435 / 0.91245
+2021-01-05 16:02:17.199170 Training: [12 epoch,  90 batch] loss: 9.69239, the best RMSE/MAE: 1.12435 / 0.91245
+<Test> RMSE：0.81467,MAE：0.66118
+2021-01-05 16:03:15.590986 Training: [13 epoch,  10 batch] loss: 9.60472, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:03:36.855832 Training: [13 epoch,  20 batch] loss: 9.57434, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:03:58.005560 Training: [13 epoch,  30 batch] loss: 9.57030, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:04:19.097790 Training: [13 epoch,  40 batch] loss: 9.47077, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:04:40.150984 Training: [13 epoch,  50 batch] loss: 9.43374, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:05:01.153730 Training: [13 epoch,  60 batch] loss: 9.36767, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:05:22.128808 Training: [13 epoch,  70 batch] loss: 9.34960, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:05:43.030634 Training: [13 epoch,  80 batch] loss: 9.30246, the best RMSE/MAE: 0.81467 / 0.66118
+2021-01-05 16:06:05.622520 Training: [13 epoch,  90 batch] loss: 9.22773, the best RMSE/MAE: 0.81467 / 0.66118
+<Test> RMSE：0.73796,MAE：0.60687
+2021-01-05 16:07:05.933497 Training: [14 epoch,  10 batch] loss: 9.17007, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:07:27.226734 Training: [14 epoch,  20 batch] loss: 9.08782, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:07:48.155280 Training: [14 epoch,  30 batch] loss: 9.05885, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:08:08.889967 Training: [14 epoch,  40 batch] loss: 9.00554, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:08:29.814320 Training: [14 epoch,  50 batch] loss: 8.99934, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:08:50.670119 Training: [14 epoch,  60 batch] loss: 8.90865, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:09:11.532169 Training: [14 epoch,  70 batch] loss: 8.85662, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:09:32.353262 Training: [14 epoch,  80 batch] loss: 8.86950, the best RMSE/MAE: 0.73796 / 0.60687
+2021-01-05 16:09:53.297634 Training: [14 epoch,  90 batch] loss: 8.79043, the best RMSE/MAE: 0.73796 / 0.60687
+<Test> RMSE：0.58328,MAE：0.45941
+2021-01-05 16:10:53.502550 Training: [15 epoch,  10 batch] loss: 8.71635, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:11:15.060001 Training: [15 epoch,  20 batch] loss: 8.65697, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:11:36.387532 Training: [15 epoch,  30 batch] loss: 8.62602, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:11:57.714262 Training: [15 epoch,  40 batch] loss: 8.54616, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:12:18.973574 Training: [15 epoch,  50 batch] loss: 8.50135, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:12:40.253306 Training: [15 epoch,  60 batch] loss: 8.45081, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:13:01.478777 Training: [15 epoch,  70 batch] loss: 8.39693, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:13:22.678467 Training: [15 epoch,  80 batch] loss: 8.33872, the best RMSE/MAE: 0.58328 / 0.45941
+2021-01-05 16:13:43.873128 Training: [15 epoch,  90 batch] loss: 8.33724, the best RMSE/MAE: 0.58328 / 0.45941
+<Test> RMSE：0.55328,MAE：0.43475
+2021-01-05 16:14:44.225448 Training: [16 epoch,  10 batch] loss: 8.22079, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:15:05.891070 Training: [16 epoch,  20 batch] loss: 8.16125, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:15:27.230785 Training: [16 epoch,  30 batch] loss: 8.15121, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:15:48.359914 Training: [16 epoch,  40 batch] loss: 8.11557, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:16:09.358599 Training: [16 epoch,  50 batch] loss: 8.03548, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:16:30.186029 Training: [16 epoch,  60 batch] loss: 8.00166, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:16:50.886337 Training: [16 epoch,  70 batch] loss: 8.02315, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:17:11.506837 Training: [16 epoch,  80 batch] loss: 7.88409, the best RMSE/MAE: 0.55328 / 0.43475
+2021-01-05 16:17:32.218640 Training: [16 epoch,  90 batch] loss: 7.87081, the best RMSE/MAE: 0.55328 / 0.43475
+<Test> RMSE：0.45486,MAE：0.30642
+2021-01-05 16:18:32.350879 Training: [17 epoch,  10 batch] loss: 7.79322, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:18:54.023155 Training: [17 epoch,  20 batch] loss: 7.73326, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:19:15.478256 Training: [17 epoch,  30 batch] loss: 7.66632, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:19:36.866142 Training: [17 epoch,  40 batch] loss: 7.65267, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:19:58.166466 Training: [17 epoch,  50 batch] loss: 7.58765, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:20:19.450760 Training: [17 epoch,  60 batch] loss: 7.62741, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:20:40.899656 Training: [17 epoch,  70 batch] loss: 7.49798, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:21:02.217681 Training: [17 epoch,  80 batch] loss: 7.50022, the best RMSE/MAE: 0.45486 / 0.30642
+2021-01-05 16:21:23.470332 Training: [17 epoch,  90 batch] loss: 7.41348, the best RMSE/MAE: 0.45486 / 0.30642
+<Test> RMSE：0.44587,MAE：0.30029
+2021-01-05 16:22:24.101710 Training: [18 epoch,  10 batch] loss: 7.34111, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:22:45.372170 Training: [18 epoch,  20 batch] loss: 7.28658, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:23:06.506272 Training: [18 epoch,  30 batch] loss: 7.26131, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:23:27.650031 Training: [18 epoch,  40 batch] loss: 7.22126, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:23:48.598904 Training: [18 epoch,  50 batch] loss: 7.20265, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:24:09.553621 Training: [18 epoch,  60 batch] loss: 7.14207, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:24:37.571488 Training: [18 epoch,  70 batch] loss: 7.08439, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:25:08.444774 Training: [18 epoch,  80 batch] loss: 7.05453, the best RMSE/MAE: 0.44587 / 0.30029
+2021-01-05 16:25:38.537034 Training: [18 epoch,  90 batch] loss: 7.01640, the best RMSE/MAE: 0.44587 / 0.30029
+<Test> RMSE：0.42185,MAE：0.27886
+2021-01-05 16:27:09.466328 Training: [19 epoch,  10 batch] loss: 6.93689, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:27:43.371071 Training: [19 epoch,  20 batch] loss: 6.89071, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:28:15.051814 Training: [19 epoch,  30 batch] loss: 6.86107, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:28:47.236591 Training: [19 epoch,  40 batch] loss: 6.79604, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:29:17.902709 Training: [19 epoch,  50 batch] loss: 6.73899, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:29:48.345717 Training: [19 epoch,  60 batch] loss: 6.75301, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:30:23.916104 Training: [19 epoch,  70 batch] loss: 6.66854, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:30:56.919848 Training: [19 epoch,  80 batch] loss: 6.65072, the best RMSE/MAE: 0.42185 / 0.27886
+2021-01-05 16:31:27.417286 Training: [19 epoch,  90 batch] loss: 6.59839, the best RMSE/MAE: 0.42185 / 0.27886
+<Test> RMSE：0.41497,MAE：0.27170
+2021-01-05 16:32:53.378962 Training: [20 epoch,  10 batch] loss: 6.52663, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:33:28.629167 Training: [20 epoch,  20 batch] loss: 6.46444, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:33:58.829555 Training: [20 epoch,  30 batch] loss: 6.44605, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:34:28.704117 Training: [20 epoch,  40 batch] loss: 6.41685, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:34:58.806552 Training: [20 epoch,  50 batch] loss: 6.40253, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:35:29.767303 Training: [20 epoch,  60 batch] loss: 6.33672, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:35:52.694528 Training: [20 epoch,  70 batch] loss: 6.30043, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:36:14.082664 Training: [20 epoch,  80 batch] loss: 6.23211, the best RMSE/MAE: 0.41497 / 0.27170
+2021-01-05 16:36:35.486182 Training: [20 epoch,  90 batch] loss: 6.21971, the best RMSE/MAE: 0.41497 / 0.27170
+<Test> RMSE：0.40619,MAE：0.24864
+2021-01-05 16:37:36.744335 Training: [21 epoch,  10 batch] loss: 6.15013, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:37:58.427027 Training: [21 epoch,  20 batch] loss: 6.11207, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:38:20.077690 Training: [21 epoch,  30 batch] loss: 6.06850, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:38:41.528131 Training: [21 epoch,  40 batch] loss: 6.00684, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:39:02.846266 Training: [21 epoch,  50 batch] loss: 5.97767, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:39:24.272463 Training: [21 epoch,  60 batch] loss: 5.94512, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:39:45.578285 Training: [21 epoch,  70 batch] loss: 5.92540, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:40:06.852989 Training: [21 epoch,  80 batch] loss: 5.87050, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:40:28.689501 Training: [21 epoch,  90 batch] loss: 5.87712, the best RMSE/MAE: 0.40619 / 0.24864
+<Test> RMSE：0.41438,MAE：0.28142
+2021-01-05 16:41:29.860418 Training: [22 epoch,  10 batch] loss: 5.75631, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:41:51.437923 Training: [22 epoch,  20 batch] loss: 5.72722, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:42:12.975314 Training: [22 epoch,  30 batch] loss: 5.67987, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:42:34.546362 Training: [22 epoch,  40 batch] loss: 5.68163, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:42:57.044604 Training: [22 epoch,  50 batch] loss: 5.62800, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:43:17.670965 Training: [22 epoch,  60 batch] loss: 5.59768, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:43:47.594118 Training: [22 epoch,  70 batch] loss: 5.57618, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:44:19.191742 Training: [22 epoch,  80 batch] loss: 5.52838, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:44:45.391344 Training: [22 epoch,  90 batch] loss: 5.56118, the best RMSE/MAE: 0.40619 / 0.24864
+<Test> RMSE：0.40748,MAE：0.26671
+2021-01-05 16:45:45.606427 Training: [23 epoch,  10 batch] loss: 5.45177, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:46:06.750120 Training: [23 epoch,  20 batch] loss: 5.40726, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:46:27.861914 Training: [23 epoch,  30 batch] loss: 5.34669, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:46:48.776926 Training: [23 epoch,  40 batch] loss: 5.30827, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:47:09.668156 Training: [23 epoch,  50 batch] loss: 5.30665, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:47:30.482179 Training: [23 epoch,  60 batch] loss: 5.25260, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:47:51.359586 Training: [23 epoch,  70 batch] loss: 5.22890, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:48:12.297959 Training: [23 epoch,  80 batch] loss: 5.20414, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:48:33.234523 Training: [23 epoch,  90 batch] loss: 5.21149, the best RMSE/MAE: 0.40619 / 0.24864
+<Test> RMSE：0.41238,MAE：0.28005
+2021-01-05 16:49:33.938142 Training: [24 epoch,  10 batch] loss: 5.14017, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:49:55.556586 Training: [24 epoch,  20 batch] loss: 5.06625, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:50:17.117857 Training: [24 epoch,  30 batch] loss: 5.05817, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:50:38.457827 Training: [24 epoch,  40 batch] loss: 5.02295, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:50:59.886398 Training: [24 epoch,  50 batch] loss: 4.99222, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:51:21.307803 Training: [24 epoch,  60 batch] loss: 4.93415, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:51:42.715703 Training: [24 epoch,  70 batch] loss: 4.90831, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:52:04.145601 Training: [24 epoch,  80 batch] loss: 4.88187, the best RMSE/MAE: 0.40619 / 0.24864
+2021-01-05 16:52:25.779681 Training: [24 epoch,  90 batch] loss: 4.87464, the best RMSE/MAE: 0.40619 / 0.24864
+<Test> RMSE：0.39370,MAE：0.22703
+2021-01-05 16:53:25.383962 Training: [25 epoch,  10 batch] loss: 4.84617, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:53:46.641599 Training: [25 epoch,  20 batch] loss: 4.76302, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:54:07.777891 Training: [25 epoch,  30 batch] loss: 4.74524, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:54:28.825003 Training: [25 epoch,  40 batch] loss: 4.73042, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:54:49.798638 Training: [25 epoch,  50 batch] loss: 4.68281, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:55:10.743901 Training: [25 epoch,  60 batch] loss: 4.66305, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:55:31.677174 Training: [25 epoch,  70 batch] loss: 4.62276, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:55:52.665541 Training: [25 epoch,  80 batch] loss: 4.61127, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:56:13.680050 Training: [25 epoch,  90 batch] loss: 4.55619, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.39639,MAE：0.23616
+2021-01-05 16:57:14.003377 Training: [26 epoch,  10 batch] loss: 4.51497, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:57:35.634945 Training: [26 epoch,  20 batch] loss: 4.48211, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:57:57.286379 Training: [26 epoch,  30 batch] loss: 4.43614, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:58:18.810741 Training: [26 epoch,  40 batch] loss: 4.44644, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:58:40.182952 Training: [26 epoch,  50 batch] loss: 4.44710, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:59:01.867841 Training: [26 epoch,  60 batch] loss: 4.37090, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:59:23.625509 Training: [26 epoch,  70 batch] loss: 4.38007, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 16:59:45.293557 Training: [26 epoch,  80 batch] loss: 4.32363, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:00:06.937083 Training: [26 epoch,  90 batch] loss: 4.29012, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.39902,MAE：0.24351
+2021-01-05 17:01:09.372368 Training: [27 epoch,  10 batch] loss: 4.24099, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:01:31.383964 Training: [27 epoch,  20 batch] loss: 4.25863, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:01:53.399501 Training: [27 epoch,  30 batch] loss: 4.19431, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:02:15.296459 Training: [27 epoch,  40 batch] loss: 4.16643, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:02:36.898515 Training: [27 epoch,  50 batch] loss: 4.14122, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:02:58.444063 Training: [27 epoch,  60 batch] loss: 4.11764, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:03:19.962624 Training: [27 epoch,  70 batch] loss: 4.09594, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:03:41.473666 Training: [27 epoch,  80 batch] loss: 4.08274, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:04:02.995595 Training: [27 epoch,  90 batch] loss: 4.03752, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.39590,MAE：0.23101
+2021-01-05 17:05:05.411783 Training: [28 epoch,  10 batch] loss: 3.98800, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:05:27.283917 Training: [28 epoch,  20 batch] loss: 3.97967, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:05:49.063714 Training: [28 epoch,  30 batch] loss: 3.95961, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:06:10.956833 Training: [28 epoch,  40 batch] loss: 3.93616, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:06:32.830092 Training: [28 epoch,  50 batch] loss: 3.87975, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:06:54.764646 Training: [28 epoch,  60 batch] loss: 3.87556, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:07:16.592173 Training: [28 epoch,  70 batch] loss: 3.86981, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:07:38.398949 Training: [28 epoch,  80 batch] loss: 3.83887, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:08:00.111562 Training: [28 epoch,  90 batch] loss: 3.80940, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.41808,MAE：0.28702
+2021-01-05 17:09:02.341626 Training: [29 epoch,  10 batch] loss: 3.78222, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:09:24.402804 Training: [29 epoch,  20 batch] loss: 3.72819, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:09:46.404079 Training: [29 epoch,  30 batch] loss: 3.76012, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:10:08.510217 Training: [29 epoch,  40 batch] loss: 3.69611, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:10:30.394823 Training: [29 epoch,  50 batch] loss: 3.66814, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:10:51.960810 Training: [29 epoch,  60 batch] loss: 3.64799, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:11:13.688461 Training: [29 epoch,  70 batch] loss: 3.62927, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:11:35.331696 Training: [29 epoch,  80 batch] loss: 3.60224, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:11:57.509772 Training: [29 epoch,  90 batch] loss: 3.59364, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.41436,MAE：0.27480
+2021-01-05 17:13:15.420548 Training: [30 epoch,  10 batch] loss: 3.59962, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:13:43.364780 Training: [30 epoch,  20 batch] loss: 3.53178, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:14:10.269940 Training: [30 epoch,  30 batch] loss: 3.50475, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:14:36.465275 Training: [30 epoch,  40 batch] loss: 3.47534, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:15:02.668973 Training: [30 epoch,  50 batch] loss: 3.45218, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:15:30.418394 Training: [30 epoch,  60 batch] loss: 3.44771, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:15:58.295433 Training: [30 epoch,  70 batch] loss: 3.41929, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:16:25.713259 Training: [30 epoch,  80 batch] loss: 3.39771, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:16:53.013339 Training: [30 epoch,  90 batch] loss: 3.38761, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.40303,MAE：0.24925
+2021-01-05 17:18:08.976063 Training: [31 epoch,  10 batch] loss: 3.34834, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:18:37.380642 Training: [31 epoch,  20 batch] loss: 3.31174, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:19:06.029412 Training: [31 epoch,  30 batch] loss: 3.30580, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:19:33.987794 Training: [31 epoch,  40 batch] loss: 3.29615, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:20:01.949764 Training: [31 epoch,  50 batch] loss: 3.27783, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:20:29.215636 Training: [31 epoch,  60 batch] loss: 3.26612, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:21:01.186749 Training: [31 epoch,  70 batch] loss: 3.21616, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:21:28.298825 Training: [31 epoch,  80 batch] loss: 3.20401, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:21:55.810564 Training: [31 epoch,  90 batch] loss: 3.18145, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.41464,MAE：0.27706
+2021-01-05 17:23:15.518890 Training: [32 epoch,  10 batch] loss: 3.13782, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:23:41.510236 Training: [32 epoch,  20 batch] loss: 3.15031, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:24:07.418472 Training: [32 epoch,  30 batch] loss: 3.13011, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:24:34.375351 Training: [32 epoch,  40 batch] loss: 3.08781, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:25:01.610791 Training: [32 epoch,  50 batch] loss: 3.06386, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:25:28.799461 Training: [32 epoch,  60 batch] loss: 3.07391, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:25:55.772617 Training: [32 epoch,  70 batch] loss: 3.07649, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:26:25.259397 Training: [32 epoch,  80 batch] loss: 3.02993, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:26:54.378417 Training: [32 epoch,  90 batch] loss: 3.00437, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.41400,MAE：0.27476
+2021-01-05 17:28:02.687131 Training: [33 epoch,  10 batch] loss: 2.99926, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:28:24.239375 Training: [33 epoch,  20 batch] loss: 2.94882, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:28:45.607092 Training: [33 epoch,  30 batch] loss: 2.94808, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:29:06.989720 Training: [33 epoch,  40 batch] loss: 2.92244, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:29:28.338626 Training: [33 epoch,  50 batch] loss: 2.90431, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:29:49.538910 Training: [33 epoch,  60 batch] loss: 2.90392, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:30:10.717632 Training: [33 epoch,  70 batch] loss: 2.87862, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:30:31.918832 Training: [33 epoch,  80 batch] loss: 2.88120, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:30:53.159981 Training: [33 epoch,  90 batch] loss: 2.83177, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.44680,MAE：0.33440
+2021-01-05 17:31:55.628605 Training: [34 epoch,  10 batch] loss: 2.79485, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:32:17.085645 Training: [34 epoch,  20 batch] loss: 2.80107, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:32:38.425657 Training: [34 epoch,  30 batch] loss: 2.77391, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:32:59.729953 Training: [34 epoch,  40 batch] loss: 2.78524, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:33:21.006538 Training: [34 epoch,  50 batch] loss: 2.73487, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:33:42.119302 Training: [34 epoch,  60 batch] loss: 2.74154, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:34:03.254300 Training: [34 epoch,  70 batch] loss: 2.70313, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:34:24.454806 Training: [34 epoch,  80 batch] loss: 2.73757, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:34:45.658720 Training: [34 epoch,  90 batch] loss: 2.69884, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.44878,MAE：0.33375
+2021-01-05 17:35:50.871971 Training: [35 epoch,  10 batch] loss: 2.65830, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:36:15.491177 Training: [35 epoch,  20 batch] loss: 2.65321, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:36:40.075478 Training: [35 epoch,  30 batch] loss: 2.62015, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:37:04.502416 Training: [35 epoch,  40 batch] loss: 2.60806, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:37:28.915201 Training: [35 epoch,  50 batch] loss: 2.57219, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:37:53.143067 Training: [35 epoch,  60 batch] loss: 2.58050, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:38:17.378713 Training: [35 epoch,  70 batch] loss: 2.56150, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:38:41.597726 Training: [35 epoch,  80 batch] loss: 2.56184, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:39:05.756213 Training: [35 epoch,  90 batch] loss: 2.55674, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.42907,MAE：0.30319
+2021-01-05 17:40:12.262851 Training: [36 epoch,  10 batch] loss: 2.50501, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:40:36.743519 Training: [36 epoch,  20 batch] loss: 2.50346, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:41:01.194905 Training: [36 epoch,  30 batch] loss: 2.48941, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:41:25.531387 Training: [36 epoch,  40 batch] loss: 2.49507, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:41:49.807520 Training: [36 epoch,  50 batch] loss: 2.45185, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:42:14.071705 Training: [36 epoch,  60 batch] loss: 2.44998, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:42:36.034340 Training: [36 epoch,  70 batch] loss: 2.44302, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:42:57.501999 Training: [36 epoch,  80 batch] loss: 2.40782, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:43:19.023220 Training: [36 epoch,  90 batch] loss: 2.39313, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.42127,MAE：0.28540
+2021-01-05 17:44:21.081868 Training: [37 epoch,  10 batch] loss: 2.39208, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:44:42.819276 Training: [37 epoch,  20 batch] loss: 2.37904, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:45:04.506120 Training: [37 epoch,  30 batch] loss: 2.34436, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:45:26.138842 Training: [37 epoch,  40 batch] loss: 2.32783, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:45:47.795551 Training: [37 epoch,  50 batch] loss: 2.30309, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:46:09.401317 Training: [37 epoch,  60 batch] loss: 2.34727, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:46:30.981945 Training: [37 epoch,  70 batch] loss: 2.29945, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:46:52.517729 Training: [37 epoch,  80 batch] loss: 2.28988, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:47:13.986728 Training: [37 epoch,  90 batch] loss: 2.27711, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.46420,MAE：0.36119
+2021-01-05 17:48:21.542655 Training: [38 epoch,  10 batch] loss: 2.26713, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:48:42.994456 Training: [38 epoch,  20 batch] loss: 2.24181, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:49:04.425902 Training: [38 epoch,  30 batch] loss: 2.22562, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:49:25.818099 Training: [38 epoch,  40 batch] loss: 2.23820, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:49:47.177624 Training: [38 epoch,  50 batch] loss: 2.20401, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:50:08.473898 Training: [38 epoch,  60 batch] loss: 2.20769, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:50:29.658991 Training: [38 epoch,  70 batch] loss: 2.17939, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:50:50.874847 Training: [38 epoch,  80 batch] loss: 2.14974, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:51:12.233356 Training: [38 epoch,  90 batch] loss: 2.14636, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.45305,MAE：0.33924
+2021-01-05 17:52:15.110911 Training: [39 epoch,  10 batch] loss: 2.14604, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:52:36.878120 Training: [39 epoch,  20 batch] loss: 2.12140, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:52:58.571429 Training: [39 epoch,  30 batch] loss: 2.11247, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:53:20.367701 Training: [39 epoch,  40 batch] loss: 2.08965, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:53:42.073689 Training: [39 epoch,  50 batch] loss: 2.07998, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:54:03.749839 Training: [39 epoch,  60 batch] loss: 2.07855, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:54:25.326799 Training: [39 epoch,  70 batch] loss: 2.09933, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:54:46.926291 Training: [39 epoch,  80 batch] loss: 2.06380, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:55:08.454322 Training: [39 epoch,  90 batch] loss: 2.03168, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.43897,MAE：0.30954
+2021-01-05 17:56:11.494697 Training: [40 epoch,  10 batch] loss: 2.01744, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:56:33.330722 Training: [40 epoch,  20 batch] loss: 2.01236, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:56:55.127212 Training: [40 epoch,  30 batch] loss: 1.98625, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:57:16.883233 Training: [40 epoch,  40 batch] loss: 2.01209, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:57:38.654962 Training: [40 epoch,  50 batch] loss: 1.98252, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:58:00.285128 Training: [40 epoch,  60 batch] loss: 1.99565, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:58:22.267703 Training: [40 epoch,  70 batch] loss: 1.95980, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:58:43.797206 Training: [40 epoch,  80 batch] loss: 1.94859, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 17:59:05.370221 Training: [40 epoch,  90 batch] loss: 1.93677, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.43651,MAE：0.30506
+2021-01-05 18:00:33.411439 Training: [41 epoch,  10 batch] loss: 1.90125, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:01:03.655687 Training: [41 epoch,  20 batch] loss: 1.92352, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:01:38.444440 Training: [41 epoch,  30 batch] loss: 1.90843, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:02:00.742463 Training: [41 epoch,  40 batch] loss: 1.88646, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:02:24.550360 Training: [41 epoch,  50 batch] loss: 1.89722, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:02:49.051647 Training: [41 epoch,  60 batch] loss: 1.85240, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:03:21.046251 Training: [41 epoch,  70 batch] loss: 1.86524, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:03:53.548912 Training: [41 epoch,  80 batch] loss: 1.83664, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:04:24.784609 Training: [41 epoch,  90 batch] loss: 1.88853, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.49529,MAE：0.39932
+2021-01-05 18:05:47.228197 Training: [42 epoch,  10 batch] loss: 1.83773, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:06:22.194341 Training: [42 epoch,  20 batch] loss: 1.80583, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:06:57.325853 Training: [42 epoch,  30 batch] loss: 1.81078, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:07:34.312203 Training: [42 epoch,  40 batch] loss: 1.78986, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:08:08.765890 Training: [42 epoch,  50 batch] loss: 1.78567, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:08:33.080748 Training: [42 epoch,  60 batch] loss: 1.77622, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:08:56.756172 Training: [42 epoch,  70 batch] loss: 1.76126, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:09:32.905248 Training: [42 epoch,  80 batch] loss: 1.76351, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:10:05.779886 Training: [42 epoch,  90 batch] loss: 1.75301, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.48381,MAE：0.37913
+2021-01-05 18:11:36.502919 Training: [43 epoch,  10 batch] loss: 1.72769, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:12:05.713734 Training: [43 epoch,  20 batch] loss: 1.71440, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:12:37.057526 Training: [43 epoch,  30 batch] loss: 1.72014, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:13:09.980104 Training: [43 epoch,  40 batch] loss: 1.69966, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:13:42.837077 Training: [43 epoch,  50 batch] loss: 1.68956, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:14:19.577060 Training: [43 epoch,  60 batch] loss: 1.68997, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:14:56.280939 Training: [43 epoch,  70 batch] loss: 1.69606, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:15:31.640005 Training: [43 epoch,  80 batch] loss: 1.68637, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:16:12.108989 Training: [43 epoch,  90 batch] loss: 1.66056, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.44737,MAE：0.31988
+2021-01-05 18:17:53.475424 Training: [44 epoch,  10 batch] loss: 1.64324, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:18:31.964840 Training: [44 epoch,  20 batch] loss: 1.64457, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:19:10.118509 Training: [44 epoch,  30 batch] loss: 1.61117, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:19:48.001374 Training: [44 epoch,  40 batch] loss: 1.62015, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:20:20.619830 Training: [44 epoch,  50 batch] loss: 1.64275, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:20:45.270035 Training: [44 epoch,  60 batch] loss: 1.60980, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:21:12.672759 Training: [44 epoch,  70 batch] loss: 1.57600, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:21:44.909723 Training: [44 epoch,  80 batch] loss: 1.60209, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:22:12.458694 Training: [44 epoch,  90 batch] loss: 1.58194, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.47964,MAE：0.36735
+2021-01-05 18:23:47.908893 Training: [45 epoch,  10 batch] loss: 1.55135, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:24:15.711930 Training: [45 epoch,  20 batch] loss: 1.57652, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:24:40.372281 Training: [45 epoch,  30 batch] loss: 1.56161, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:25:21.339930 Training: [45 epoch,  40 batch] loss: 1.53023, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:25:53.850778 Training: [45 epoch,  50 batch] loss: 1.52706, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:26:27.307958 Training: [45 epoch,  60 batch] loss: 1.52742, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:27:04.050819 Training: [45 epoch,  70 batch] loss: 1.49863, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:27:32.739630 Training: [45 epoch,  80 batch] loss: 1.51643, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:28:06.490930 Training: [45 epoch,  90 batch] loss: 1.50293, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.51063,MAE：0.40062
+2021-01-05 18:29:31.297274 Training: [46 epoch,  10 batch] loss: 1.48565, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:29:56.144829 Training: [46 epoch,  20 batch] loss: 1.48268, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:30:17.407086 Training: [46 epoch,  30 batch] loss: 1.46299, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:30:38.586951 Training: [46 epoch,  40 batch] loss: 1.44939, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:30:59.819140 Training: [46 epoch,  50 batch] loss: 1.44638, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:31:20.875371 Training: [46 epoch,  60 batch] loss: 1.45712, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:31:41.904369 Training: [46 epoch,  70 batch] loss: 1.45791, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:32:02.850778 Training: [46 epoch,  80 batch] loss: 1.43585, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:32:23.801927 Training: [46 epoch,  90 batch] loss: 1.41601, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.49578,MAE：0.38606
+2021-01-05 18:33:40.615801 Training: [47 epoch,  10 batch] loss: 1.43043, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:34:07.784031 Training: [47 epoch,  20 batch] loss: 1.42506, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:34:34.858595 Training: [47 epoch,  30 batch] loss: 1.38664, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:35:00.555585 Training: [47 epoch,  40 batch] loss: 1.40711, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:35:26.219679 Training: [47 epoch,  50 batch] loss: 1.39447, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:35:52.564665 Training: [47 epoch,  60 batch] loss: 1.37828, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:36:19.595929 Training: [47 epoch,  70 batch] loss: 1.37390, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:36:44.666904 Training: [47 epoch,  80 batch] loss: 1.35292, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:37:05.694033 Training: [47 epoch,  90 batch] loss: 1.36140, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.48187,MAE：0.36010
+2021-01-05 18:38:12.862465 Training: [48 epoch,  10 batch] loss: 1.37280, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:38:34.081363 Training: [48 epoch,  20 batch] loss: 1.33682, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:38:55.430673 Training: [48 epoch,  30 batch] loss: 1.33123, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:39:16.683303 Training: [48 epoch,  40 batch] loss: 1.32314, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:39:37.964500 Training: [48 epoch,  50 batch] loss: 1.30773, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:39:59.212522 Training: [48 epoch,  60 batch] loss: 1.33067, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:40:20.438352 Training: [48 epoch,  70 batch] loss: 1.30881, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:40:41.547768 Training: [48 epoch,  80 batch] loss: 1.29443, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:41:02.743591 Training: [48 epoch,  90 batch] loss: 1.30093, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.45126,MAE：0.31392
+2021-01-05 18:42:05.143762 Training: [49 epoch,  10 batch] loss: 1.27283, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:42:26.893584 Training: [49 epoch,  20 batch] loss: 1.26416, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:42:48.644324 Training: [49 epoch,  30 batch] loss: 1.27362, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:43:11.230556 Training: [49 epoch,  40 batch] loss: 1.26584, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:43:33.770302 Training: [49 epoch,  50 batch] loss: 1.25795, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:43:56.395882 Training: [49 epoch,  60 batch] loss: 1.26174, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:44:18.955915 Training: [49 epoch,  70 batch] loss: 1.25783, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:44:41.450994 Training: [49 epoch,  80 batch] loss: 1.23359, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:45:12.772329 Training: [49 epoch,  90 batch] loss: 1.23574, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.44520,MAE：0.29666
+2021-01-05 18:47:10.068179 Training: [50 epoch,  10 batch] loss: 1.21492, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:47:48.537755 Training: [50 epoch,  20 batch] loss: 1.20595, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:48:26.914115 Training: [50 epoch,  30 batch] loss: 1.22242, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:49:16.025491 Training: [50 epoch,  40 batch] loss: 1.21032, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:50:22.500078 Training: [50 epoch,  50 batch] loss: 1.19013, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:51:30.064476 Training: [50 epoch,  60 batch] loss: 1.19534, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:52:46.631874 Training: [50 epoch,  70 batch] loss: 1.19809, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:54:04.520524 Training: [50 epoch,  80 batch] loss: 1.17666, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 18:55:16.637205 Training: [50 epoch,  90 batch] loss: 1.17529, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.49520,MAE：0.36947
+2021-01-05 18:59:13.974463 Training: [51 epoch,  10 batch] loss: 1.16201, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:00:29.296958 Training: [51 epoch,  20 batch] loss: 1.18202, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:01:44.332322 Training: [51 epoch,  30 batch] loss: 1.15577, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:02:56.681266 Training: [51 epoch,  40 batch] loss: 1.15073, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:04:11.329209 Training: [51 epoch,  50 batch] loss: 1.13678, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:05:30.177151 Training: [51 epoch,  60 batch] loss: 1.14392, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:06:50.602727 Training: [51 epoch,  70 batch] loss: 1.14675, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:08:07.312942 Training: [51 epoch,  80 batch] loss: 1.13787, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:09:20.223492 Training: [51 epoch,  90 batch] loss: 1.12851, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.48902,MAE：0.37237
+2021-01-05 19:13:07.139597 Training: [52 epoch,  10 batch] loss: 1.10405, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:14:12.768858 Training: [52 epoch,  20 batch] loss: 1.10177, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:15:17.905341 Training: [52 epoch,  30 batch] loss: 1.09709, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:16:18.260905 Training: [52 epoch,  40 batch] loss: 1.10122, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:17:21.864089 Training: [52 epoch,  50 batch] loss: 1.09790, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:18:27.389722 Training: [52 epoch,  60 batch] loss: 1.07992, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:19:32.732606 Training: [52 epoch,  70 batch] loss: 1.07994, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:20:38.293280 Training: [52 epoch,  80 batch] loss: 1.08048, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:21:42.153213 Training: [52 epoch,  90 batch] loss: 1.08521, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.47961,MAE：0.33675
+2021-01-05 19:25:01.059817 Training: [53 epoch,  10 batch] loss: 1.05768, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:26:06.601144 Training: [53 epoch,  20 batch] loss: 1.05127, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:27:11.751697 Training: [53 epoch,  30 batch] loss: 1.06618, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:28:14.582480 Training: [53 epoch,  40 batch] loss: 1.03191, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:29:15.878694 Training: [53 epoch,  50 batch] loss: 1.04103, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:30:20.415801 Training: [53 epoch,  60 batch] loss: 1.05418, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:31:25.917179 Training: [53 epoch,  70 batch] loss: 1.02584, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:32:31.209315 Training: [53 epoch,  80 batch] loss: 1.02929, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:33:36.523893 Training: [53 epoch,  90 batch] loss: 1.03026, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.53209,MAE：0.41822
+2021-01-05 19:36:55.560930 Training: [54 epoch,  10 batch] loss: 0.99654, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:38:00.975755 Training: [54 epoch,  20 batch] loss: 1.01845, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:39:06.483336 Training: [54 epoch,  30 batch] loss: 1.03883, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:40:10.430088 Training: [54 epoch,  40 batch] loss: 1.00238, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:41:12.560889 Training: [54 epoch,  50 batch] loss: 0.99020, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:42:15.620960 Training: [54 epoch,  60 batch] loss: 1.00208, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:43:20.156120 Training: [54 epoch,  70 batch] loss: 0.98729, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:44:29.690386 Training: [54 epoch,  80 batch] loss: 0.97555, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:45:45.958245 Training: [54 epoch,  90 batch] loss: 0.97574, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.52140,MAE：0.38250
+2021-01-05 19:49:31.857698 Training: [55 epoch,  10 batch] loss: 0.97026, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:50:46.284135 Training: [55 epoch,  20 batch] loss: 0.96202, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:52:02.153949 Training: [55 epoch,  30 batch] loss: 0.95801, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:53:17.324522 Training: [55 epoch,  40 batch] loss: 0.94555, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:54:30.538924 Training: [55 epoch,  50 batch] loss: 0.96466, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:55:41.358623 Training: [55 epoch,  60 batch] loss: 0.95086, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:56:57.080902 Training: [55 epoch,  70 batch] loss: 0.95201, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:58:10.694613 Training: [55 epoch,  80 batch] loss: 0.93147, the best RMSE/MAE: 0.39370 / 0.22703
+2021-01-05 19:59:23.930879 Training: [55 epoch,  90 batch] loss: 0.93002, the best RMSE/MAE: 0.39370 / 0.22703
+<Test> RMSE：0.49128,MAE：0.34950
+The best RMSE/MAE：0.39370/0.22703
